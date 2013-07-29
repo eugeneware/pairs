@@ -55,3 +55,11 @@ function pairs (obj, indexer) {
   return Object.keys(all).sort().map(JSON.parse)
 }
 
+module.exports.index = pairsIndex;
+function pairsIndex(key, value, emit) {
+  if (value && typeof value === 'object' && Object.keys(value).length > 0) {
+    pairs(value).forEach(function (pair) {
+      emit(pair);
+    });
+  }
+}
