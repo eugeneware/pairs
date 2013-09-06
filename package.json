@@ -1,6 +1,6 @@
 {
   "name": "pairs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Turn a JSON object into a list of pairs. Useful for indexing.",
   "main": "index.js",
   "scripts": {

@@ -4,6 +4,8 @@ Turn a JSON object into a list of pairs. Useful for indexing.
 
 NB: The basis for this file was extracted from the fine [level-search](https://github.com/dominictar/level-search) library.
 
+[![build status](https://secure.travis-ci.org/eugeneware/pairs.png)](http://travis-ci.org/eugeneware/pairs)
+
 ## Installation
 
 Install via npm:
