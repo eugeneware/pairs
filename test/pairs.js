@@ -1,5 +1,5 @@
 var pairs = require('..'),
-    pkg   = require('../package.json');
+    pkg   = require('./fixture/package.json');
 var expect = require('chai').expect;
 describe('pairs', function() {
   it('should be able to turn a json document into a list of pairs', function(done) {
